@@ -5,6 +5,5 @@
 		"usefulrailroads:highspeed_rail",
 		"minecraft:powered_rail",
 		"usefulrailroads:clamp_rail"
-	],
-	"optional": []
+	]
 }

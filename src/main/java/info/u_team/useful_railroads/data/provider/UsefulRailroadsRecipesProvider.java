@@ -44,13 +44,13 @@ public class UsefulRailroadsRecipesProvider extends CommonRecipesProvider {
 		
 		ShapedRecipeBuilder.shapedRecipe(SPEED_CLAMP_RAIL, 24) //
 				.patternLine("IDI") //
-				.patternLine("HSH") //
+				.patternLine("LSL") //
 				.patternLine("IRI") //
 				.key('R', getIngredientOfTag(Tags.Items.DUSTS_REDSTONE)) //
 				.key('S', Items.STICK) //
 				.key('I', getIngredientOfTag(Tags.Items.INGOTS_IRON)) //
 				.key('D', getIngredientOfTag(Tags.Items.GEMS_DIAMOND)) //
-				.key('H', Items.HONEY_BOTTLE) //
+				.key('L', getIngredientOfTag(Tags.Items.SLIMEBALLS)) //
 				.addCriterion("has_minecart", hasItem(Items.MINECART)) //
 				.build(consumer);
 		

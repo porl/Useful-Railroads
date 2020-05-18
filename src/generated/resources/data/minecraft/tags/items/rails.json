@@ -7,6 +7,5 @@
 		"usefulrailroads:intersection_rail",
 		"usefulrailroads:teleport_rail",
 		"usefulrailroads:buffer_stop"
-	],
-	"optional": []
+	]
 }

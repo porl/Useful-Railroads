@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"IDI",
-		"HSH",
+		"LSL",
 		"IRI"
 	],
 	"key": {
@@ -18,8 +18,8 @@
 		"D": {
 			"tag": "forge:gems/diamond"
 		},
-		"H": {
-			"item": "minecraft:honey_bottle"
+		"L": {
+			"tag": "forge:slimeballs"
 		}
 	},
 	"result": {

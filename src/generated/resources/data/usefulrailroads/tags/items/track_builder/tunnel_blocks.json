@@ -5,6 +5,5 @@
 		"#forge:stone",
 		"#forge:cobblestone",
 		"#forge:sandstone"
-	],
-	"optional": []
+	]
 }
