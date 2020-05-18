@@ -16,7 +16,7 @@ public class SpeedClampRailBlock extends CustomPoweredRailBlock {
 	
 	@Override
 	protected void controllSpeed(BlockPos pos, BlockState state, AbstractMinecartEntity cart) {
-		final double clampVelocity = 0.2D; // hard-coded for now
+		final double clampVelocity = 0.25D; // hard-coded for now
 		final double currentVelocity = cart.getMotion().length();
 
 		// if speed too slow (may cause issue with cartDirection) use playerDirection
